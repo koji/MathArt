@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* Copyright(C) 2009 WEB DESIGN LAB (http://www.webdlab.com/) Licensed under the MIT License http://www.opensource.org/licenses/mit-license.php */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+html,body {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #000;
+  color:#fff;
+}
+img {
+  border: none;
+}
+ul,ol {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-size: 100%;
+  line-height: 1.6;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+a,a:link,a:visited {
+  color: #4776AF;
+  text-decoration: none;
+}
+a:hover,a:active {
+  color: #9fb7d4;
+}
+article,aside,details,footer,header,main,menu,nav,section,summary {
+  display: block;
+}
+
+
+
+.sample-demo {
+    margin: 0 auto 40px auto;
+    padding: 0;
+  }
+  header {
+    border-bottom: 2px solid #9fb7d4;
+    height: 60px;
+  }
+  #toplogo {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  #toplogo img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+      font-size: 40px;
+      padding: 20px 0;
+      text-align: center;
+  }
+
+  h3 {
+    color: #333;
+    text-align: center;
+    padding:  10px 0;
+  }
+  .ad_contents {
+    width: 98%;
+    max-width: 728px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .ad_horizontal {
+    width: 98%;
+    max-width: 728px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .backbtn a,
+  .backbtn a:link,
+  .backbtn a:visited {
+    display: block;
+    color: #fff;
+    width: 160px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: #1f527c;
+    opacity: 0.4;
+  }
+  .backbtn a:hover {
+    opacity: 1.0;
+  }
+  #counter {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  #copyright {
+    color: #333;
+    text-align: center;
+    padding:  10px 0;
+  }
+  footer {
+    border-top: 2px solid #9fb7d4;
+  }
+
+
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+  video {
+      width: 100%;
+      height: auto;
+  }
+
+  header {
+    border-bottom: 2px solid #000;
+    height: 100px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #contents {
+    width: 320px;
+    margin: 0 auto;
+    padding: 5px;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .g1 {
+      width: 300px;
+      background: #000;
+      margin: 5px;
+      padding: 10px;
+    }
+    .g2 {
+      width: 145px;
+      background: #000;
+      margin: 5px;
+      padding: 10px;
+    }
+  /*  **  */
+  @media (min-width: 640px) {
+  #contents {
+    width: 640px;
+    padding: 5px 10px;
+    background: #ccc;
+  }
+  /*  **  */}
+  @media (min-width: 960px) {
+  #contents {
+    width: 960px;
+    padding: 10px 15px;
+    background: #000;
+  }
+    .g1 {
+      width: 455px;
+    }
+    .g2 {
+      width: 300px;
+    }
+  /*  **  */}
