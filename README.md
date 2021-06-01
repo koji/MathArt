@@ -1,3 +1,5 @@
 # Math Art
 site  
-https://sleepy-maker.github.io/MathArt/
+https://math-art.netlify.app/
+
+All videos are made by Processing
